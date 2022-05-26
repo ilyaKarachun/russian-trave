@@ -1,0 +1,17 @@
+.place__text {
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    gap: 26px;
+}
+
+@media screen and (max-width: 320px) {
+    .place__text {
+        grid-column: 1/2;
+        margin: 0px;
+        grid-row: 4/5;
+        padding-left: 16px;
+        gap: 25px;
+        max-width: 288px;
+    }
+}

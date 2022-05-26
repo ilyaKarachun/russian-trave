@@ -1,0 +1,19 @@
+.place__website_url-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+    grid-row: 1/2;
+    letter-spacing: 2px;
+    color: #AAAAAA;
+    margin: 0px;
+   
+}
+
+@media screen and (max-width: 768px) {
+    .place__website_url-heading {
+        line-height: 1;
+        grid-row: 1/2;
+    }
+}

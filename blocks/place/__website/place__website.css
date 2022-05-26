@@ -1,0 +1,15 @@
+.place__website {
+    align-self: end;
+    display: grid;
+    row-gap: 12px;
+    grid-template-rows: max-content max-content;
+   
+}
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        padding-left: 16px;
+        font-size: 32px;
+        grid-row: 2/3;
+    }
+}

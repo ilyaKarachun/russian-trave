@@ -1,0 +1,17 @@
+.place__website_link {
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    grid-row: 2/3;
+    font-size: 18px;
+    line-height: 1.22222;
+    
+}
+
+@media screen and (max-width: 320px) {
+    .place__website_link {
+        grid-row: 2/3;
+    }
+}

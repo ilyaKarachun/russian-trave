@@ -1,0 +1,15 @@
+.intro__list {
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+    grid-row: 6;
+    grid-column: 2;
+    list-style: none;;
+}
+

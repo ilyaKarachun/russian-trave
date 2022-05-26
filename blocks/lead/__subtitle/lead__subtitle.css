@@ -1,7 +1,7 @@
 .lead__subtitle {
     width: calc( 100% - 344px );
     max-height: 72px;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', 'sans-serif';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;

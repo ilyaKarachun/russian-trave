@@ -1,10 +1,11 @@
 /* шрифты переместить после всех импортов */
 
+/* сбрасываем стили */
+@import url(../vendors/normalize.css);
+
 
 @import url(../blocks/main/main.css);
 
-/* сбрасываем стили */
-@import url(../vendors/normalize.css);
 
 /* bloack page */
 @import url(../blocks/page/page.css);
@@ -13,6 +14,7 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 /* block lead */
 @import url(../blocks/lead/lead.css);
@@ -26,7 +28,7 @@
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
-@import url(../blocks/intro/__list/_weight/intro__list_weight.css);
+@import url(../blocks/intro/__number/intro__number.css);
 
 /*block photo-grid */
 @import url(../blocks/photo-grid/photo-grid.css);

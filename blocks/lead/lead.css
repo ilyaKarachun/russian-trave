@@ -4,19 +4,19 @@
     text-align: center;
     grid-template-columns: auto;
     grid-template-rows: 56px max-content 32px min-content 64px min-content 8px min-content;
-    width: calc(100% - 296px);
+    max-width: calc(100% - 296px);
 }
 
 @media screen and (max-width: 1024px) {
     .lead {
-        width: calc(100% - 96px);
+        max-width: calc(100% - 96px);
         grid-template-rows: 48px max-content 32px min-content 56px min-content 8px min-content;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead {
-        width: 100%;
+        max-width: 100%;
     }
 }
 

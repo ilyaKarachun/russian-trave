@@ -1,9 +1,8 @@
 .places {
-    width: calc(100% - 296px);
+    max-width: calc(100% - 296px);
     display: grid;
     row-gap: 80px;
     grid-template-rows: min-content;
-    
 }
 
 @media screen and (max-width: 1024px) {
@@ -14,7 +13,7 @@
 
 @media screen and (max-width: 768px) {
   .places {
-     width: calc(100% - 48px);
+     max-width: calc(100% - 48px);
      row-gap: 70px;
   }
 }
@@ -23,7 +22,7 @@
 @media screen and (max-width: 320px) {
   .places {
    display: grid;
-   width: 100%;
+   max-width: 100%;
    grid-template-rows: min-content;
    gap: 50px;
   }

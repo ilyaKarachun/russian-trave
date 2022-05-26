@@ -13,15 +13,15 @@
   <body class="page">
     <header class="header">
       <img src="./images/header-logo.svg" class="header__logo" alt="картинка" />
-      <a href="#" target="_blank" class="header__lang-link"> Ru</a>
+      <a href="#" target="_blank" class="header__lang-link header__lang-link_active"> Ru</a>
       <a href="#" target="_blank" class="header__lang-link">En</a>
     </header>
     <main class="main">
       <div class="lead">
         <h1 class="lead__title">Путешествия по&nbsp;России</h1>
-        <h2 class="lead__subtitle">
+        <p class="lead__subtitle">
           Настоящая страна не в выпусках новостей, а здесь.
-        </h2>
+        </p>
         <img src="./images/lead-polka.jpg" class="lead__image" alt="картинка" />
         <p class="lead__caption">ваша полка — верхняя</p>
       </div>
@@ -42,25 +42,25 @@
         <ul class="intro__list">
           <li>
             Часовых поясов
-            <span class="intro__list intro__list_weight">11</span>
+            <span class="intro__number">11</span>
           </li>
           <li>
             Объектов природного наследия ЮНЕСКО
-            <span class="intro__list intro__list_weight">12</span>
+            <span class="intro__number">12</span>
           </li>
           <li>
             Объектов культурного наследия ЮНЕСКО<span
-              class="intro__list intro__list_weight"
+              class="intro__number"
             >
               16</span
             >
           </li>
           <li>
             Природных заповедников
-            <span class="intro__list intro__list_weight">105</span>
+            <span class="intro__number">105</span>
           </li>
           <li>
-            Аэропортов <span class="intro__list intro__list_weight">241</span>
+            Аэропортов <span class="intro__number">241</span>
           </li>
         </ul>
       </div>
@@ -128,16 +128,16 @@
       </section>
       <section aria-label="места" class="places">
         <div class="place">
-          <p class="place__title">Куршская коса</p>
+          <h2 class="place__title">Куршская коса</h2>
           <img src="./images/place-kosa.jpg" alt="картинка" class="place__image" />
-          <nav class="place__website">
+          <div class="place__website">
             <p class="place__website place__website_url-heading">URL</p>
             <a href="http://www.park-kosa.ru/" 
                target="_blank"
                class="place__website place__website_link"
               >park-kosa.ru</a
             >
-          </nav>
+          </div>
           <div class="place__text">
             <p class="place__paragraph">
               Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
@@ -156,9 +156,9 @@
           </div>
         </div>
         <div class="place">
-          <p class="place__title">Кольский</p>
+          <h2 class="place__title">Кольский</h2>
           <img src="./images/place-kolsky.jpg" alt="картинка" class="place__image" />
-          <nav class="place__website">
+          <div class="place__website">
             <p class="place__website place__website_url-heading">URL</p>
             <a
               href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
@@ -166,7 +166,7 @@
               class="place__website place__website_link"
               >National Geographic</a
             >
-          </nav>
+          </div>
           <div class="place__text">
             <p class="place__paragraph">
               Почти весь полуостров находится за Полярным кругом. Саамская
@@ -185,9 +185,9 @@
           </div>
         </div>
         <div class="place">
-          <p class="place__title">Алтай</p>
+          <h2 class="place__title">Алтай</h2>
           <img src="./images/place-altai.jpg" alt="картинка" class="place__image" />
-          <nav class="place__website">
+          <div class="place__website">
             <p class="place__website place__website_url-heading">URL</p>
             <a
               href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
@@ -195,7 +195,7 @@
               class="place__website place__website_link"
               >Facebook</a
             >
-          </nav>
+          </div>
           <div class="place__text">
             <p class="place__paragraph">
               Алтай — одно из красивейших мест в&nbsp;России. В&nbsp;первую
@@ -214,13 +214,13 @@
           </div>
         </div>
         <div class="place">
-          <p class="place__title">Зимний Байкал</p>
+          <h2 class="place__title">Зимний Байкал</h2>
           <img
             src="./images/place-winter-baikal.jpg"
             alt="картинка"
             class="place__image"
           />
-          <nav class="place__website">
+          <div class="place__website">
             <p class="place__website place__website_url-heading">URL</p>
             <a
               href="https://vk.com/baikalmile"
@@ -228,7 +228,7 @@
               class="place__website place__website_link"
               >https://vk.com/baikalmile</a
             >
-          </nav>
+          </div>
           <div class="place__text">
             <p class="place__paragraph">
               Всем известен Байкал как крупнейшее озеро в мире. Многие также
@@ -245,13 +245,13 @@
           </div>
         </div>
         <div class="place">
-          <p class="place__title">Карелия</p>
+          <h2 class="place__title">Карелия</h2>
           <img
             src="./images/place-karelia.jpg"
             alt="картинка"
             class="place__image"
           />
-          <nav class="place__website">
+          <div class="place__website">
             <p class="place__website place__website_url-heading">URL</p>
             <a
               href="http://vodlozero.ru"
@@ -259,7 +259,7 @@
               class="place__website place__website_link"
               >http://vodlozero.ru/</a
             >
-          </nav>
+          </div>
           <div class="place__text">
             <p class="place__paragraph">
               Сибирь заканчивается не на Урале, а&nbsp;в&nbsp;Карелии:

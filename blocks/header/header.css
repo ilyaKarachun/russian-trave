@@ -1,5 +1,5 @@
 .header {
-    width: calc(100% - 96px);
+    max-width: calc(100% - 96px);
     display: grid;
     grid-template-columns:  min-content 1fr min-content 18px min-content;
     grid-template-rows: 28px 1fr;
@@ -10,13 +10,13 @@
 
 @media screen and (max-width: 768px) {
     .header {
-        width: calc(100% - 48px);
+        max-width: calc(100% - 48px);
     }
 }
 
 @media screen and (max-width: 320px) {
     .header {
-        width: calc(100% - 32px);
+        max-width: calc(100% - 32px);
         grid-template-rows: 16px 1fr;
     }
 }

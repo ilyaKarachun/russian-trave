@@ -1,25 +1,25 @@
 .intro {
     display: grid;
     grid-template-rows: 92px max-content 40px max-content 33px max-content 92px;
-    grid-template-columns: 148px calc(100% - 590px) 448px;
+    grid-template-columns: 148px calc(100% - 590px) 1fr;
 }
 
 @media screen and (max-width: 1024px) {
     .intro {
-        grid-template-columns: 48px calc(100% - 334px) 286px;
+        grid-template-columns: 48px calc(100% - 334px) 1fr;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro {
         grid-template-rows: 88px max-content 40px max-content 33px max-content 88px;
-        grid-template-columns: 24px calc(100% - 48px) 24px;
+        grid-template-columns: 24px calc(100% - 48px) 1fr;
     }
 }
 
 @media screen and (max-width: 320px) {
     .intro {
-        grid-template-columns: 16px calc(100% - 32px) 16px;
+        grid-template-columns: 1fr calc(100% - 32px) 1fr;
         grid-template-rows: 64px max-content 40px max-content 32px max-content 64px;
     }
 }

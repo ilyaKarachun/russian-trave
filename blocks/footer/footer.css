@@ -1,19 +1,18 @@
 .footer {
-    width: calc(100% - 96px);
+    max-width: calc(100% - 96px);
     display: grid;
     grid-template-rows: 92px max-content 24px;
 }
 
 @media screen and (max-width: 768px) {
-    .footer {    
-        width: calc(100% - 48px); 
-        
+    .footer {
+        max-width: calc(100% - 48px); 
     }
   }
 
 @media screen and (max-width: 320px) {
-    .footer {    
-        width: calc(100% - 16px);
+    .footer {
+        max-width: calc(100% - 16px);
         display: flex;
         flex-direction: column;
         gap: 48px;

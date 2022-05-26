@@ -9,23 +9,20 @@
     grid-row: 2;
     margin: 0;
     padding-top: 18px;
-    min-width: 30px;
-    min-height: 28px;
+    max-width: 30px;
+    max-height: 28px;
 }
 
-.header__lang-link:nth-of-type(1) {
-    text-decoration: underline;
-    grid-column: 3;
-    grid-row: 2;
-   
+.header__lang-link:hover {
+    opacity: 0.8;
 }
+
 
 @media screen and (max-width: 320px) {
     .header__lang-link {
-        width: 22px;
-        height: 20px;
+        max-width: 22px;
+        max-height: 20px;
         padding-top: 14px;
-        min-width: 22px;
         line-height: 1.11111;
         font-size: 18px;
     }

@@ -1,4 +1,4 @@
-.place__website_link {
+.place__link {
     text-decoration-line: underline;
     color: #FFFFFF;
     font-family: 'Inter', 'Arial', 'sans-serif';
@@ -9,12 +9,12 @@
     line-height: 1.22222;
 }
 
-.place__website_link:hover {
+.place__link:hover {
     opacity: 0.8;
 }
 
 @media screen and (max-width: 320px) {
-    .place__website_link {
+    .place__link {
         grid-row: 2/3;
     }
 }

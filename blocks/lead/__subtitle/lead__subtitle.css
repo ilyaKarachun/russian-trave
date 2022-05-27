@@ -1,5 +1,5 @@
 .lead__subtitle {
-    max-width: calc( 100% - 344px );
+    max-width: 640px;
     font-family: 'Inter', 'Arial', 'sans-serif';
     font-style: normal;
     font-weight: 400;
@@ -11,15 +11,21 @@
     grid-row: 4;
 }
 
-@media screen and (max-width: 1024px) {
-    .lead__subtitle {
-        max-width: calc(100% - 288px);
-    }
-}
-
 @media screen and (max-width: 768px) {
     .lead__subtitle {
         max-width: calc(100% - 128px);
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .lead__subtitle {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .lead__subtitle {
+        font-size: 16px;
     }
 }
 

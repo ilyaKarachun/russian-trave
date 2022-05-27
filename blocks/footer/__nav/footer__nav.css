@@ -2,12 +2,13 @@
     display: grid;
     grid-column: 1/2;
     grid-row: 2;
-    column-gap: 14px;
+    column-gap: 18px;
+    grid-template-columns: min-content min-content;
 }
 
 @media screen and (max-width: 1024px) {
     .footer__nav {
-       column-gap: 10px;
+       column-gap: 18px;
     }
 }
 

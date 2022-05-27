@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     display: grid;
+    grid-template-rows: min-content min-content;
     gap: 26px;
 }
 

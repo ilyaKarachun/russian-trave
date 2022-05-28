@@ -13,12 +13,17 @@
     max-height: 28px;
 }
 
+.header__lang-link:first-of-type {
+    grid-column: 3;
+    grid-row: 2;
+}
+
 .header__lang-link:hover {
     opacity: 0.8;
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
     .header__lang-link {
         max-width: 22px;
         max-height: 20px;

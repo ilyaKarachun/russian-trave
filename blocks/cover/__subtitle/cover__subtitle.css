@@ -35,6 +35,12 @@
       padding-bottom: 115px;
     }
   }
+
+  @media screen and (max-width: 578px) {
+    .cover__title {
+      font-size: 12px; 
+    }
+  }
   
   @media screen and (max-width: 320px) {
     .cover__subtitle {

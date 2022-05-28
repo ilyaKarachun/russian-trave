@@ -19,7 +19,7 @@
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .places {
    display: grid;
    max-width: 100%;

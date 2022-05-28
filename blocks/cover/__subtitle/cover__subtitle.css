@@ -37,15 +37,14 @@
   }
 
   @media screen and (max-width: 578px) {
-    .cover__title {
-      font-size: 12px; 
+    .cover__subtitle {
+      font-size: 14px; 
     }
   }
   
   @media screen and (max-width: 320px) {
     .cover__subtitle {
       padding-bottom: 33px;
-      font-size: 14px;
       line-height: 1.14;
       max-width: 273px;
       

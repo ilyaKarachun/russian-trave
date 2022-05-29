@@ -17,26 +17,19 @@
     }
   }
 
-  @media screen and (max-width: 768px) {
-    .place__image {
-      max-width: 340px;
-      grid-column: 1/2;
-    }
-  }
-
   @media screen and (max-width: 680px) {
     .place__image {
       max-width: 280px;
     }
   }
 
-  @media screen and (max-width: 526px) {
+  @media screen and (max-width: 542px) {
     .place__image {
       max-width: 200px;
     }
   }
 
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 468px) {
     .place__image {
       grid-row: 3/4;
       max-width: 100%;
